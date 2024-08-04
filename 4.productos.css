@@ -1,0 +1,43 @@
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+display: inline-block;
+text-align: center;
+width: 30%;
+vertical-align:top ;
+margin:0 1.5%;
+padding: 30px 20px;
+box-sizing: border-box;
+border : 2px solid #000000;
+border-radius: 15px;
+}
+
+.productos li:hover{
+    border-color: #c78c79;
+}
+
+.productos li:active{
+    font-size: 30px;
+}
+.productos li:active h2{
+    font-size: 30px;
+}
+
+.productos h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.p-descripcion{
+    font-size: 18px;
+    }
+.p-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto - JairBarber</title>
+        <link rel="stylesheet" href="0.reset.css">
+        <link rel="stylesheet" href="0.style.css">
+        <link rel="stylesheet" href="1.header.css">
+        <link rel="stylesheet" href="2.home.css">
+        <link rel="stylesheet" href="3.servicios.css">
+        <link rel="stylesheet" href="4.productos.css">
+        <link rel="stylesheet" href="5.contacto.css">
+        <link rel="shortcut icon"  href="imagenes/barberia.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <section class="vacio">
+    </section>
+    <body>
+        <header>
+            <div class="hd">
+                <div class="hd-s1">
+                    <img class="imglogo" src="imagenes/logo.png" alt="">
+                    <h1 class="txtjair"> Jair Barber
+                    </h1>
+                </div>
+                <nav class="hd-s2">
+                    <ul>
+                        <li><a href="index.html">Nosotros</a> </li>
+                        <li><a href="productos.html">Servicios</a> </li>
+                        <li><a href="productos.html">Productos</a> </li>
+                        <li><a href="contacto.html">Contacto</a> </li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>
+        
+        <main>
+            <section class="contenido">
+                <form >
+                    <label for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido" class="input-padron" required>
+        
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="text" id="correo" class="input-padron" required
+                    placeholder="email@dominio.com">
+        
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" id="telefono" class="input-padron" required
+                    placeholder="(XX) XXX XXX XXX">
+                    
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="" id="" cols="40" rows="10" class="input-padron" ></textarea>
+                    
+                    <fieldset>
+                        <legend>¿Como le gustaria que lo contactemos?</legend>
+                        <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                        <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>          
+                        <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>¿En que horario prefiere ser atendido?</legend>
+                        <select>
+                            <option value="">Mañana</option>
+                            <option value="">Tarde</option>
+                            <option value="">Noche</option>
+                        </select>
+                    </fieldset>
+                    
+                    <label for="">
+                        <input type="checkbox" checked> Le gustaría recibir novedades de la Barbería Alura?
+                    </label>
+                    
+        
+        
+                    <input type="submit" value="Enviar formulario" class="enviar">
+                </form>
+        
+                <table>
+                        <thead>
+                                <tr>
+                                    <th>Día</th>
+                                    <th>Horario</th>
+                                </tr>
+                        </thead>
+        
+                        <tbody>
+                                <tr>
+                                    <td>Lunes</td>
+                                    <td>08-20</td>
+                                </tr>
+                                <tr>
+                                    <td>Miercoles</td>
+                                    <td>08-20</td>
+                                </tr>
+                        </tbody>
+                    </table>
+
+            </section>
+        
+        </main>
+
+        <footer>
+            <img class="logoultimo" src="imagenes/logo-blanco.png" alt="">
+            <p class="copyright">&copy Copyrigth Barberia Jair-2024</p>
+        </footer>  
+    </body>
+</html>
